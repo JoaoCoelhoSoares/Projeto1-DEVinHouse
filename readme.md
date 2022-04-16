@@ -1,8 +1,5 @@
 # DEVinHouse - Módulo 1 - Projeto Avaliativo 1 
 
----
-
-
 Este é o projeto 1 para a DEVinHouse.
 
 ## REQUISITOS DA APLICAÇÃO
