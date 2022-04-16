@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.ico" type="img/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Mercado Fácil - Lista de compras</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mercado Fácil 🛒</h1>
+    </header>
+
+    <nav>
+        <label for="inputItem">Adicionar item na lista:</label>
+        <input type="text" id="inputItem" placeholder="Informe aqui o item" autofocus="true">
+        <button type="submit" id="addButton"
+            title='Ao clicar no botão "Adicionar" o item digitado será adicionado a lista abaixo'>Adicionar</button>
+    </nav>
+    <main id="main">
+        <section id="lista">
+            <h2>Lista de Compras</h2>
+            <ul id="ul"></ul>
+        </section>
+        <aside id="valorTotal">
+            <h3>Valor das compras realizadas:</h3>
+            <p id="totalCompras"></p>
+        </aside>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
